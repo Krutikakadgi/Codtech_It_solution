@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f0321af717.js" crossorigin="anonymous"></script>
+     </style>
+</head>
+<body>
+   <div id="header" >
+     <div class="container">
+        <nav>
+           <!--- <img src="images/logo2.png" class="logo" style="width: 20%;">----->
+            <ul>
+             <li><a href="#header">Home</a></li>
+             <li><a href="#about">About</a></li>
+             <li><a href="#services">Services</a></li>
+             <li><a href="#portfolio">Portfolio</a></li>
+             <li><a href="#contact">Contact</a></li>
+             </ul>
+           </nav>
+        <div class="header-text">
+            <p>WEB DEVELOPER</p>
+            <h1>Hi, I am <span>Krutika</span> <br>Kadgi From Pune</h1>
+        
+        </div>
+     </div>
+   </div>
+<!---About ME-->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/aboutus.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                      <p>I am a person who is positive about every aspect of life. 
+                         There are many things I like to do,
+                            to see, and to experience. 
+                            I like to read, I like to write;
+                           I like to think, I like to dream; 
+                            I like to talk, I like to listen.</p>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Designing Web interfaces</li>
+                            <li><span>Python</span><br>Designing Web interfaces</li>
+                            <li><span>Application  Developer</span><br>Building Android/iOS</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresher</span><br>Looking for Intern and Placement</li>
+                            
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br> FullStack Training at Pune</li>
+                            <li><span>2024</span><br> Pursuing MCA from Pune Universtiy</li>
+                            <li><span>2021</span><br>BBA(CA) from Pune Universtiy</li>
+                        </ul>
+                     </div>
+
+
+            </div>
+        </div>
+    </div>
+   </div>
+
+  <!------------Sevices of portfolio--------------->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1> 
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web designing is the process of planning, conceptualizing, and implementing the plan for
+                 designing a website in a way that is functional and offers a good user experience. 
+                 User experience is central to the web designing process. </p>
+                 <a href="#">Learn More</a>
+            </div>     
+                <div>
+                    <i class="fa-brands fa-adn"></i>
+                   
+                 <h2>App Design</h2>
+                 <p>Mobile app design services involve creating user-friendly and engaging interfaces 
+                    for apps. These services enhance user engagement, create a strong brand identity, 
+                    maximize app functionality, and increase revenue. </p>
+                  <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                  <h2>Python </h2>
+                  <p>Python is a powerful programming language that you can use for web development. 
+                    It has a simple syntax and is easy to learn,
+                     which makes it a popular choice for programmers. . </p>
+                   <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+ 
+<!----Portfolio page---->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpg">
+                <div class="layer">
+                   
+                    <h3>Campus Recuruitment Management System </h3>
+                    <p>A campus recruiter is responsible for attracting, engaging, and hiring talented students from 
+                        colleges  for internships and other career opportunities within an organization.</p>
+                        <a href="#"><i class="fa-solid fa-building-columns"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.png">
+                <div class="layer">
+                    
+                    <h3>Property Management System </h3>
+                    <p>This website provides a platform for everyone to be able to rent their
+                        house and properties on a single place and rentees can access detailed
+                        information about properties available for rent..</p>
+                        <a href="#"><i class="fa-solid fa-house"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.jpg">
+                <div class="layer">
+                    
+                    <h3>Water Supply Management System </h3>
+                    <p>The Water Supply Management System (WSMS) is a web based application that can be accessed over the web.
+                         This system can be used to automate the workflow of water supply and their invoices..</p>
+                         <a href="#"><i class="fa-solid fa-bottle-water"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  
+  
+  <!----------------------Contact--------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>krutikakadgi@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>96785325403</p>
+                <div class="s-media">
+                    <a href="https://www.linkedin.com/in/krutika-kadgi-061a12274" ><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Resume .pdf" download class="btn">Download Resume</a>
+            </div>
+
+            <div class="contact-right">
+               <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © krutika-kadgi<i class="fa-regular fa-heart"></i></p>
+    </div>
+</div>
+   
+   <script>
+    var tablinks=document.getElementsByClassName("tab-links")
+    var tabcontents=document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+   </script>
+</body>
+</html>
